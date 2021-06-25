@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    float: left;
+    padding: 10px;
+}
+h1 img{
+    vertical-align: middle;
+    
+}
+header{
+    background-color: darkblue;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    color: white;
+}
+header .contenedor{
+    display: table;
+}
+section{
+    width: 100%;
+    margin-bottom: 25px;
+}
+.contenedor{
+    width: 98%;
+    margin: auto;
+}
+
+main{
+    margin-top: 100px;
+}
+a{
+    font-size: 20px;
+    padding: 10px;
+    margin: 13px;
+    border: 2px solid black;
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    width: 200px;
+}
+
+a:hover{
+    color: black;
+    background-color: red;
+}
+a:active{
+    color:white;
+    background-color: black;
+}
+p{
+    font-size: 30px;
+}
+form div{
+    display: block;
+    padding: 3px;
+}
+
+input{
+    padding: 3px;
+    width: 60px;
+    font-size: 30px;
+}
+label{
+    width: 60px;
+    padding: 3px;
+    font-size: 30px;
+    border: 2px solid black;
+}
+#calificar{
+    width: 200px;
+    margin: 5px;
+    margin-top: 10px;
+}
